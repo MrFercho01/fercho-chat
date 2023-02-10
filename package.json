@@ -1,0 +1,47 @@
+{
+  "private": true,
+  "sideEffects": false,
+  "scripts": {
+    "build": "remix build",
+    "dev": "remix dev",
+    "typecheck": "tsc",
+    "start": "node server.js",
+    "generate:types": "npx supabase gen types typescript --project-id wmgvrehlumvbyvhpkjhw > ./app/types/database.ts"
+  },
+  "dependencies": {
+    "@remix-run/node": "^1.12.0",
+    "@remix-run/react": "^1.12.0",
+    "@remix-run/vercel": "^1.12.0",
+    "@supabase/auth-helpers-remix": "0.1.4",
+    "@supabase/auth-ui-react": "^0.2.7",
+    "@supabase/supabase-js": "^2.7.1",
+    "@vercel/node": "^2.9.2",
+    "engine": "^1.0.0",
+    "node": "^19.6.0",
+    "npm": "^9.4.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.8.1",
+    "synckit": "^0.8.5"
+  },
+  "devDependencies": {
+    "@nuxtclub/supabase": "^1.2.1",
+    "@remix-run/dev": "^1.12.0",
+    "@remix-run/eslint-config": "^1.12.0",
+    "@remix-run/serve": "^1.12.0",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "eslint": "^8.33.0",
+    "typescript": "^4.9.5"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "name": "fercho-chat",
+  "description": "- [Remix Docs](https://remix.run/docs)",
+  "version": "1.0.0",
+  "main": ".eslintrc.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
